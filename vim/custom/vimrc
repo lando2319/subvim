@@ -1,0 +1,9 @@
+let g:surround_{char2nr('=')} = "<%= \r %>"
+let g:surround_{char2nr('-')} = "<% \r %>"
+
+map <C-n> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
