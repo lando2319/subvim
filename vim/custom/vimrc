@@ -19,6 +19,6 @@ set shiftwidth=2
 set softtabstop=2
 
  " Custom Keymapping
-nnoremap - 0wv$h
+nnoremap -v 0wv$h
 inoremap <c-a> <esc>
 vnoremap <c-a> <esc>
