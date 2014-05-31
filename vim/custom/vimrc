@@ -1,9 +1,19 @@
+ " Mike Land's VIMRC
+ " -----------------
+ " Forked Subvim
+ " Went to base/YouCompleteMe ran $ ./install.sh --clang-completer
+ " Created 'custom' folder with new vimrc and added plugins
+ " deleted 'custom' from gitignore 
+
+ " Adds Erb Tags
 let g:surround_{char2nr('=')} = "<%= \r %>"
 let g:surround_{char2nr('-')} = "<% \r %>"
 
+ " Adds <c-n> mapping for NerdTree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen=1
 
+ " sets intendent to use spaces
 set expandtab
 set shiftwidth=2
 set softtabstop=2
