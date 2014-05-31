@@ -17,3 +17,6 @@ let NERDTreeQuitOnOpen=1
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+ " mapping - for entire line select without extra characters
+nmap - 0wv$h
