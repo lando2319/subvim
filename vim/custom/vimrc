@@ -1,7 +1,7 @@
  " Mike Land's VIMRC
  " -----------------
  " Forked Subvim
- " Went to base/YouCompleteMe ran $ ./install.sh --clang-completer
+ " Went to /vim/base/YouCompleteMe ran $ ./install.sh --clang-completer
  " Created 'custom' folder with new vimrc and added plugins
  " deleted 'custom' from gitignore 
 

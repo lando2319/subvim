@@ -91,9 +91,6 @@ if has("gui_macvim")
   vmap <D-[> <gv
   vmap <D-]> >gv
 
-  "Open sidebar with cmd+k
-  map <D-k> :NERDTreeTabsToggle<CR>
-
   " This mapping makes Ctrl-Tab switch between tabs.
   " Ctrl-Shift-Tab goes the other way.
   noremap <C-Tab> :tabnext<CR>
