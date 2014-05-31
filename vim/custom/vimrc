@@ -18,5 +18,7 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
- " mapping - for entire line select without extra characters
+ " Custom Keymapping
 nmap - 0wv$h
+imap <c-a> <esc>
+vmap <c-a> <esc>
