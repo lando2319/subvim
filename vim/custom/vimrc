@@ -21,3 +21,5 @@ set softtabstop=2
  " Custom Keymapping
 nnoremap -v 0wv$h
 inoremap jk <esc>
+
+nnoremap -sp :set paste!

@@ -1,6 +1,6 @@
 " ~/ror/subvim/vim/sessions/default.vim:
 " Vim session script.
-" Created by session.vim 2.4.9 on 31 May 2014 at 15:13:16.
+" Created by session.vim 2.4.9 on 02 June 2014 at 11:41:21.
 " Open this file in Vim and run :source % to restore your session.
 
 if exists('g:syntax_on') != 1 | syntax on | endif
@@ -22,8 +22,8 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 ~/ror/subvim/vim/custom/vimrc
-" args ~/ror/subvim/vim/custom/vimrc
+badd +1 ~/ror/subvim/vim/custom/vimrc
+silent! argdel *
 edit ~/ror/subvim/vim/custom/vimrc
 set splitbelow splitright
 wincmd t
@@ -38,7 +38,7 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 34) / 69)
+let s:l = 1 - ((0 * winheight(0) + 28) / 56)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt

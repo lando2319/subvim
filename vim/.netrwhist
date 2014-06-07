@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/mikeland/ror/software_dev_freelancer_site'
 let g:netrw_dirhist_2='/Users/mikeland/ror/micard'
 let g:netrw_dirhist_3='/Users/mikeland/ror/software_dev_freelancer_site'
 let g:netrw_dirhist_4='/Users/mikeland/ror/merge_master_flex/micard'
+let g:netrw_dirhist_5='/Users/mikeland/ror/starter-league-spring-2014/lessons/week-09/downloads/poupon_complete'
+let g:netrw_dirhist_6='/Users/mikeland/ror/software_dev_freelancer_site'
+let g:netrw_dirhist_7='/Users/mikeland/ror/merge_master_flex/micard'
+let g:netrw_dirhist_8='/Users/mikeland/ror/software_dev_freelancer_site'
